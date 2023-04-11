@@ -49,8 +49,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassesDefOf.cs" />
     <Compile Include="RimIgnitionUtility.cs" />
-    <Compile Include="IncidentWorker_rimIgnition.cs" />
+    <Compile Include="IncidentWorker_RimIgnition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

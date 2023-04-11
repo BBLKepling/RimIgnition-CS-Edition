@@ -15,17 +15,15 @@ namespace RimIgnition
             {
                 ignitables.AddRange(map.listerThings.ThingsOfDef(ThingDefOf.Brazier));
             }
-            /*
             if (ModLister.HasActiveModWithName("Vanilla Furniture Expanded"))
             {
-                ignitables.AddRange(map.listerThings.ThingsOfDef(ThingDefOf.Stone_Campfire));
+                ignitables.AddRange(map.listerThings.ThingsOfDef(ClassesDefOf.Stone_Campfire));
             }
             if (ModLister.HasActiveModWithName("Medieval Overhaul"))
             {
-                ignitables.AddRange(map.listerThings.ThingsOfDef(ThingDefOf.DankPyon_RusticTorchLamp));
-                ignitables.AddRange(map.listerThings.ThingsOfDef(ThingDefOf.DankPyon_WallTorch));
+                ignitables.AddRange(map.listerThings.ThingsOfDef(ClassesDefOf.DankPyon_RusticTorchLamp));
+                ignitables.AddRange(map.listerThings.ThingsOfDef(ClassesDefOf.DankPyon_WallTorch));
             }
-            */
             for (int i = 0; i < ignitables.Count; i++)
             {
                 Building building = (Building)ignitables[i];

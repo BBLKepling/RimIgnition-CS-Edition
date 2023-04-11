@@ -1,5 +1,7 @@
 <loadFolders>
   <v1.4>
     <li>1.4</li>
+    <li IfModNotActive="VanillaExpanded.VFECore">1.4/Mods/VFE</li>
+    <li IfModNotActive="DankPyon.Medieval.Overhaul">1.4/Mods/MO</li>
   </v1.4>
 </loadFolders>

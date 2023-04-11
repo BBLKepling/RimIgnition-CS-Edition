@@ -28,6 +28,7 @@ namespace RimIgnition
             {
                 Building building = (Building)ignitables[i];
                 CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                // the null check is a FU to anyone who patches CompRefuelable off
                 if (refuelComp == null || refuelComp.HasFuel)
                 {
                     yield return building;

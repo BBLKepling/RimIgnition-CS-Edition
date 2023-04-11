@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef>
+    <defName>DankPyon_RusticTorchLamp</defName>
+    <thingClass>ThingWithComps</thingClass>
+    <label>null</label>
+  </ThingDef>
+  <ThingDef>
+    <defName>DankPyon_WallTorch</defName>
+    <thingClass>ThingWithComps</thingClass>
+    <label>null</label>
+  </ThingDef>
+</Defs>

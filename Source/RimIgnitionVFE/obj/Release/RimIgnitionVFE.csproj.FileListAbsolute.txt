@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.4\Mods\VFE\Assemblies\RimIgnitionVFE.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\Source\RimIgnitionVFE\obj\Release\RimIgnitionVFE.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\Source\RimIgnitionVFE\obj\Release\RimIgnitionVFE.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\Source\RimIgnitionVFE\obj\Release\RimIgnitionVFE.dll

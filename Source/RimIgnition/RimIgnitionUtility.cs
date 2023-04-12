@@ -9,29 +9,38 @@ namespace RimIgnition
 
         public static IEnumerable<Building> GetIgnitables(Map map)
         {
-            List<Thing> ignitables = map.listerThings.ThingsOfDef(ThingDefOf.Campfire);
-            ignitables.AddRange(map.listerThings.ThingsOfDef(ThingDefOf.TorchLamp));
-            if (ModsConfig.RoyaltyActive)
+            List<Thing> ignitablesTorch = map.listerThings.ThingsOfDef(ThingDefOf.TorchLamp);
+            for (int i = 0; i < ignitablesTorch.Count; i++)
             {
-                ignitables.AddRange(map.listerThings.ThingsOfDef(ThingDefOf.Brazier));
-            }
-            if (ModLister.HasActiveModWithName("Vanilla Furniture Expanded"))
-            {
-                ignitables.AddRange(map.listerThings.ThingsOfDef(ClassesDefOf.Stone_Campfire));
-            }
-            if (ModLister.HasActiveModWithName("Medieval Overhaul"))
-            {
-                ignitables.AddRange(map.listerThings.ThingsOfDef(ClassesDefOf.DankPyon_RusticTorchLamp));
-                ignitables.AddRange(map.listerThings.ThingsOfDef(ClassesDefOf.DankPyon_WallTorch));
-            }
-            for (int i = 0; i < ignitables.Count; i++)
-            {
-                Building building = (Building)ignitables[i];
+                Building building = (Building)ignitablesTorch[i];
                 CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
                 // the null check is a FU to anyone who patches CompRefuelable off
                 if (refuelComp == null || refuelComp.HasFuel)
                 {
                     yield return building;
+                }
+            }
+            List<Thing> ignitablesCampfire = map.listerThings.ThingsOfDef(ThingDefOf.Campfire);
+            for (int i = 0; i < ignitablesCampfire.Count; i++)
+            {
+                Building building = (Building)ignitablesCampfire[i];
+                CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                if (refuelComp == null || refuelComp.HasFuel)
+                {
+                    yield return building;
+                }
+            }
+            if (ModsConfig.RoyaltyActive)
+            {
+                List<Thing> ignitablesBrazier = map.listerThings.ThingsOfDef(ThingDefOf.Brazier);
+                for (int i = 0; i < ignitablesBrazier.Count; i++)
+                {
+                    Building building = (Building)ignitablesBrazier[i];
+                    CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                    if (refuelComp == null || refuelComp.HasFuel)
+                    {
+                        yield return building;
+                    }
                 }
             }
         }

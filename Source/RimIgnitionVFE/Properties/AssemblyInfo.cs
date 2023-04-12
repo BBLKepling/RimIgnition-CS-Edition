@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RimIgnition")]
-[assembly: AssemblyDescription("Adds a Zzzzzt style event for torches and campfires.")]
+[assembly: AssemblyTitle("RimIgnitionVFE")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Open Source")]
-[assembly: AssemblyProduct("RimIgnition")]
-[assembly: AssemblyCopyright("Copyright © None 2023")]
+[assembly: AssemblyCompany("HP")]
+[assembly: AssemblyProduct("RimIgnitionVFE")]
+[assembly: AssemblyCopyright("Copyright © HP 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("41e7d5c2-ea15-4d1d-937e-f7048aaf41ce")]
+[assembly: Guid("15eddd2b-2a74-4658-8476-24ad18be1131")]
 
 // Version information for an assembly consists of the following four values:
 //

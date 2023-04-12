@@ -5,7 +5,7 @@
 
   <IncidentDef>
     <defName>BBLK_RimIgnition</defName>
-    <label>hot ember</label>
+    <label>Pfftt!</label>
     <category>Misc</category>
     <targetTags>
       <li>Map_PlayerHome</li>
@@ -13,9 +13,6 @@
     <workerClass>RimIgnition.IncidentWorker_RimIgnition</workerClass>
     <baseChance>1.0</baseChance>
     <minRefireDays>8</minRefireDays>
-    <letterText>A burning object has thrown off a hot ember!!!</letterText>
-    <letterLabel>hot ember</letterLabel>
-    <letterDef>ThreatSmall</letterDef>
   </IncidentDef>
 
 </Defs>

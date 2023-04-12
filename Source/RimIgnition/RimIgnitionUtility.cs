@@ -1,6 +1,9 @@
 ﻿using RimWorld;
 using System.Collections.Generic;
+using System.Security.Cryptography;
+using System.Text;
 using Verse;
+using Verse.Noise;
 
 namespace RimIgnition
 {
@@ -45,22 +48,24 @@ namespace RimIgnition
             }
         }
 
-        public static bool TryIgniteFireNear(Building b)
+        public static bool TryIgniteFireNear(Building culprit)
         {
+            Map map = culprit.Map;
             List<IntVec3> tmpCells = new List<IntVec3>();
             int num = GenRadial.NumCellsInRadius(3f);
-            CellRect startRect = b.OccupiedRect();
+            CellRect startRect = culprit.OccupiedRect();
             for (int i = 0; i < num; i++)
             {
-                IntVec3 intVec = b.Position + GenRadial.RadialPattern[i];
-                if (GenSight.LineOfSight(b.Position, intVec, b.Map, startRect, CellRect.SingleCell(intVec)) && FireUtility.ChanceToStartFireIn(intVec, b.Map) > 0f)
+                IntVec3 intVec = culprit.Position + GenRadial.RadialPattern[i];
+                if (GenSight.LineOfSight(culprit.Position, intVec, culprit.Map, startRect, CellRect.SingleCell(intVec)) && FireUtility.ChanceToStartFireIn(intVec, culprit.Map) > 0f)
                 {
                     tmpCells.Add(intVec);
                 }
             }
             if (tmpCells.Any())
             {
-                return FireUtility.TryStartFireIn(tmpCells.RandomElement(), b.Map, Rand.Range(0.1f, 1.75f));
+                Find.LetterStack.ReceiveLetter("BBLK_LetterLabelIgnite".Translate(), "BBLK_LetterTextIgnite".Translate(culprit.Label, culprit.Named("CULPRIT")), LetterDefOf.NegativeEvent, new TargetInfo(culprit.Position, map));
+                return FireUtility.TryStartFireIn(tmpCells.RandomElement(), culprit.Map, Rand.Range(0.1f, 1.75f));
             }
             return false;
         }

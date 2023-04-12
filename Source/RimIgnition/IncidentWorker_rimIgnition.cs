@@ -17,8 +17,7 @@ namespace RimIgnition
             {
                 return false;
             }
-            RimIgnitionUtility.TryIgniteFireNear(result);
-            return true;
+            return RimIgnitionUtility.TryIgniteFireNear(result);
         }
     }
 }

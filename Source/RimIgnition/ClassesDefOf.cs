@@ -15,7 +15,8 @@ namespace RimIgnition
         public static ThingDef Darktorch;
         [MayRequireIdeology]
         public static ThingDef DarktorchFungus;
-        [MayRequireIdeology][MayRequireRoyalty]
+        [MayRequireAnyOf("ludeon.rimworld.ideology")]
+        [MayRequire("ludeon.rimworld.royalty")]
         public static ThingDef DarklightBrazier;
         [MayRequire("sarg.rimbees")]
         public static ThingDef RB_WaxCandle;

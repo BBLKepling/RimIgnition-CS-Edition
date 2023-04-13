@@ -1,4 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.4\Mods\MO\Assemblies\RimIgnitionMO.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\Source\RimIgnitionMO\obj\Release\RimIgnitionMO.csproj.AssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\Source\RimIgnitionMO\obj\Release\RimIgnitionMO.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\Source\RimIgnitionMO\obj\Release\RimIgnitionMO.dll

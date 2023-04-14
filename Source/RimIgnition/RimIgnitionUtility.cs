@@ -178,6 +178,68 @@ namespace RimIgnition
                     }
                 }
             }
+            if (ModLister.HasActiveModWithName("Stick Lantern (Continued)"))
+            {
+                List<Thing> ignitablesStickLantern = map.listerThings.ThingsOfDef(ClassesDefOf.DR_StickLantern);
+                for (int i = 0; i < ignitablesStickLantern.Count; i++)
+                {
+                    Building building = (Building)ignitablesStickLantern[i];
+                    CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                    if (refuelComp == null || refuelComp.HasFuel)
+                    {
+                        yield return building;
+                    }
+                }
+                if (ModsConfig.RoyaltyActive)
+                {
+                    List<Thing> ignitablesDarkStickLantern = map.listerThings.ThingsOfDef(ClassesDefOf.DR_DarkStickLantern);
+                    for (int i = 0; i < ignitablesDarkStickLantern.Count; i++)
+                    {
+                        Building building = (Building)ignitablesDarkStickLantern[i];
+                        CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                        if (refuelComp == null || refuelComp.HasFuel)
+                        {
+                            yield return building;
+                        }
+                    }
+                }
+            }
+            if (ModLister.HasActiveModWithName("Undergrounders: Darkfire"))
+            {
+                List<Thing> ignitablesUGDFCampFire = map.listerThings.ThingsOfDef(ClassesDefOf.undrgdrs_Darkfire);
+                for (int i = 0; i < ignitablesUGDFCampFire.Count; i++)
+                {
+                    Building building = (Building)ignitablesUGDFCampFire[i];
+                    CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                    if (refuelComp == null || refuelComp.HasFuel)
+                    {
+                        yield return building;
+                    }
+                }
+                List<Thing> ignitablesUGDFunCampFire = map.listerThings.ThingsOfDef(ClassesDefOf.undrgdrs_FungusDarkfire);
+                for (int i = 0; i < ignitablesUGDFunCampFire.Count; i++)
+                {
+                    Building building = (Building)ignitablesUGDFunCampFire[i];
+                    CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                    if (refuelComp == null || refuelComp.HasFuel)
+                    {
+                        yield return building;
+                    }
+                }
+                if (ModsConfig.RoyaltyActive)
+                {
+                    List<Thing> ignitablesUGFunBrazier = map.listerThings.ThingsOfDef(ClassesDefOf.undrgdrs_FungusDarklightBrazier);
+                    for (int i = 0; i < ignitablesUGFunBrazier.Count; i++)
+                    {
+                        Building building = (Building)ignitablesUGFunBrazier[i];
+                        CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                        if (refuelComp == null || refuelComp.HasFuel)
+                        {
+                            yield return building;
+                        }
+                    }
+                }
+            }
             if (ModLister.HasActiveModWithName("Vanilla Furniture Expanded"))
             {
                 List<Thing> ignitablesVFECampFire = map.listerThings.ThingsOfDef(ClassesDefOf.Stone_Campfire);
@@ -191,13 +253,66 @@ namespace RimIgnition
                     }
                 }
             }
+            if (ModLister.HasActiveModWithName("Wall Torches Expanded") || ModLister.HasActiveModWithName("Wall Torches Expanded Easy") || ModLister.HasActiveModWithName("Wall Torches N Grill Tech"))
+            {
+                List<Thing> ignitablesEarlyWallTorch = map.listerThings.ThingsOfDef(ClassesDefOf.EarlyWallTorch);
+                for (int i = 0; i < ignitablesEarlyWallTorch.Count; i++)
+                {
+                    Building building = (Building)ignitablesEarlyWallTorch[i];
+                    CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                    if (refuelComp == null || refuelComp.HasFuel)
+                    {
+                        yield return building;
+                    }
+                }
+                List<Thing> ignitablesWallTorch = map.listerThings.ThingsOfDef(ClassesDefOf.WallTorch);
+                for (int i = 0; i < ignitablesWallTorch.Count; i++)
+                {
+                    Building building = (Building)ignitablesWallTorch[i];
+                    CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                    if (refuelComp == null || refuelComp.HasFuel)
+                    {
+                        yield return building;
+                    }
+                }
+                List<Thing> ignitablesWallFuelOilTorch = map.listerThings.ThingsOfDef(ClassesDefOf.WallFuelOilTorch);
+                for (int i = 0; i < ignitablesWallFuelOilTorch.Count; i++)
+                {
+                    Building building = (Building)ignitablesWallFuelOilTorch[i];
+                    CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                    if (refuelComp == null || refuelComp.HasFuel)
+                    {
+                        yield return building;
+                    }
+                }
+                List<Thing> ignitablesCeilingTorch = map.listerThings.ThingsOfDef(ClassesDefOf.CeilingTorch);
+                for (int i = 0; i < ignitablesCeilingTorch.Count; i++)
+                {
+                    Building building = (Building)ignitablesCeilingTorch[i];
+                    CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                    if (refuelComp == null || refuelComp.HasFuel)
+                    {
+                        yield return building;
+                    }
+                }
+                List<Thing> ignitablesCeilingFuelOilTorch = map.listerThings.ThingsOfDef(ClassesDefOf.CeilingFuelOilTorch);
+                for (int i = 0; i < ignitablesCeilingFuelOilTorch.Count; i++)
+                {
+                    Building building = (Building)ignitablesCeilingFuelOilTorch[i];
+                    CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
+                    if (refuelComp == null || refuelComp.HasFuel)
+                    {
+                        yield return building;
+                    }
+                }
+            }
         }
 
         public static bool TryIgniteFireNear(Building culprit)
         {
             Map map = culprit.Map;
             List<IntVec3> tmpCells = new List<IntVec3>();
-            int num = GenRadial.NumCellsInRadius(3f);
+            int num = GenRadial.NumCellsInRadius(2f);
             CellRect startRect = culprit.OccupiedRect();
             for (int i = 0; i < num; i++)
             {
@@ -210,7 +325,7 @@ namespace RimIgnition
             if (tmpCells.Any())
             {
                 Find.LetterStack.ReceiveLetter("BBLK_LetterLabelIgnite".Translate(), "BBLK_LetterTextIgnite".Translate(culprit.Label, culprit.Named("CULPRIT")), LetterDefOf.NegativeEvent, new TargetInfo(culprit.Position, map));
-                return FireUtility.TryStartFireIn(tmpCells.RandomElement(), culprit.Map, Rand.Range(0.1f, 1.75f));
+                return FireUtility.TryStartFireIn(tmpCells.RandomElement(), culprit.Map, Rand.Range(0.1f, 1.00f));
             }
             return false;
         }

@@ -2,6 +2,6 @@
 <LanguageData>
 
   <BBLK_LetterLabelIgnite>Pfftt!</BBLK_LetterLabelIgnite>
-  <BBLK_LetterTextIgnite>An ember from a {CULPRIT_label} has caused a fire.</BBLK_LetterTextIgnite>
+  <BBLK_LetterTextIgnite>{CULPRIT_label} threw an ember and caused a fire.</BBLK_LetterTextIgnite>
 
 </LanguageData>

@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassesDefOf.cs" />
+    <Compile Include="MayRequireCopyAttribute.cs" />
     <Compile Include="RimIgnitionUtility.cs" />
     <Compile Include="IncidentWorker_RimIgnition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[
+      defName="TorchLamp" or 
+      defName="Darktorch" or 
+      defName="DarktorchFungus" or 
+      defName="RB_WaxCandle" or 
+      defName="DankPyon_RusticTorchLamp" or 
+      defName="DankPyon_WallTorch" or 
+      defName="DankPyon_WallLamp" or 
+      defName="DankPyon_LampPost" or 
+      defName="DankPyon_Candles" or 
+      defName="DankPyon_CandleStand" or 
+      defName="DankPyon_RusticLamp" or 
+      defName="DR_StickLantern" or 
+      defName="DR_DarkStickLantern" or 
+      defName="EarlyWallTorch" or 
+      defName="WallTorch" or 
+      defName="WallFuelOilTorch" or 
+      defName="CeilingTorch" or 
+      defName="CeilingFuelOilTorch"
+    ]</xpath>
+    <value>
+      <li Class="RimIgnition.RimIgniterModExtension">
+        <emberRange>2</emberRange>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[
+      defName="Campfire" or 
+      defName="Brazier" or 
+      defName="DarklightBrazier" or 
+      defName="undrgdrs_Darkfire" or 
+      defName="undrgdrs_FungusDarklightBrazier" or 
+      defName="Stone_Campfire"
+    ]</xpath>
+    <value>
+      <li Class="RimIgnition.RimIgniterModExtension">
+        <emberRange>3</emberRange>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

@@ -34,6 +34,7 @@
       defName="Campfire" or 
       defName="Brazier" or 
       defName="DarklightBrazier" or 
+      defName="BurnPit" or 
       defName="undrgdrs_Darkfire" or 
       defName="undrgdrs_FungusDarklightBrazier" or 
       defName="Stone_Campfire"

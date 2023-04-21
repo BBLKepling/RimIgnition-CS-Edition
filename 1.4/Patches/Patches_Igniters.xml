@@ -6,7 +6,10 @@
       defName="TorchLamp" or 
       defName="Darktorch" or 
       defName="DarktorchFungus" or 
+      defName="SanguphageMeetingTorch" or 
       defName="RB_WaxCandle" or 
+      defName="VFEM_Candle" or 
+      defName="VFEM_WallTorchLamp" or 
       defName="DankPyon_RusticTorchLamp" or 
       defName="DankPyon_WallTorch" or 
       defName="DankPyon_WallLamp" or 
@@ -20,7 +23,8 @@
       defName="WallTorch" or 
       defName="WallFuelOilTorch" or 
       defName="CeilingTorch" or 
-      defName="CeilingFuelOilTorch"
+      defName="CeilingFuelOilTorch" or 
+      defName="ApiniWaxCandle"
     ]</xpath>
     <value>
       <li Class="RimIgnition.RimIgniterModExtension">

@@ -24,7 +24,10 @@
       defName="WallFuelOilTorch" or 
       defName="CeilingTorch" or 
       defName="CeilingFuelOilTorch" or 
-      defName="ApiniWaxCandle"
+      defName="ApiniWaxCandle" or 
+      defName="MedTimes_Candle" or 
+      defName="MedTimes_Chandeller" or 
+      defName="MedTimes_StreetLamp"
     ]</xpath>
     <value>
       <li Class="RimIgnition.RimIgniterModExtension">
@@ -41,6 +44,7 @@
       defName="BurnPit" or 
       defName="undrgdrs_Darkfire" or 
       defName="undrgdrs_FungusDarklightBrazier" or 
+      defName="MedTimes_Brazier" or 
       defName="Stone_Campfire"
     ]</xpath>
     <value>

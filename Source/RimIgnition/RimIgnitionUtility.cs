@@ -1,9 +1,6 @@
 ﻿using RimWorld;
 using System.Collections.Generic;
-using System.Security.Cryptography;
-using System.Text;
 using Verse;
-using Verse.Noise;
 
 namespace RimIgnition
 {
@@ -12,22 +9,14 @@ namespace RimIgnition
 
         public static IEnumerable<Building> GetIgnitables(Map map)
         {
-            List<Thing> ignitables = map.listerThings.AllThings;
+            List<Building> ignitables = map.listerBuildings.allBuildingsColonist;
             for (int i = 0; i < ignitables.Count; i++)
             {
-                if (ignitables[i] is Building)
-                {
-                    Building building = (Building)ignitables[i];
-                    if (building.def.HasModExtension<RimIgniterModExtension>())
-                    {
-                        CompRefuelable refuelComp = building.GetComp<CompRefuelable>();
-                        // the null check is a FU to anyone who patches CompRefuelable off
-                        if (refuelComp == null || refuelComp.HasFuel)
-                        {
-                            yield return building;
-                        }
-                    }
-                }
+                if (!ignitables[i].def.HasModExtension<RimIgniterModExtension>()) { continue; }
+                CompRefuelable refuelComp = ignitables[i].GetComp<CompRefuelable>();
+                // the null check is a FU to anyone who patches CompRefuelable off
+                if (refuelComp != null && !refuelComp.HasFuel) { continue; }
+                yield return ignitables[i];
             }
         }
 

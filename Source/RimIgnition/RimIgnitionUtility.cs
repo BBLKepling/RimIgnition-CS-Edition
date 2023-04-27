@@ -16,7 +16,21 @@ namespace RimIgnition
                 CompRefuelable refuelComp = ignitables[i].GetComp<CompRefuelable>();
                 // the null check is a FU to anyone who patches CompRefuelable off
                 if (refuelComp != null && !refuelComp.HasFuel) { continue; }
-                yield return ignitables[i];
+                List<IntVec3> tmpCells = new List<IntVec3>();
+                int num = GenRadial.NumCellsInRadius(ignitables[i].def.GetModExtension<RimIgniterModExtension>().emberRange);
+                CellRect startRect = ignitables[i].OccupiedRect();
+                for (int q = 0; q < num; q++)
+                {
+                    IntVec3 intVec = ignitables[i].Position + GenRadial.RadialPattern[q];
+                    if (GenSight.LineOfSight(ignitables[i].Position, intVec, map, startRect, CellRect.SingleCell(intVec)) && FireUtility.ChanceToStartFireIn(intVec, map) > 0f)
+                    {
+                        tmpCells.Add(intVec);
+                    }
+                }
+                if (tmpCells.Any())
+                {
+                    yield return ignitables[i];
+                }
             }
         }
 

@@ -27,7 +27,8 @@
       defName="ApiniWaxCandle" or 
       defName="MedTimes_Candle" or 
       defName="MedTimes_Chandeller" or 
-      defName="MedTimes_StreetLamp"
+      defName="MedTimes_StreetLamp" or 
+      defName="Erin_TorchAndon"
     ]</xpath>
     <value>
       <li Class="RimIgnition.RimIgniterModExtension">

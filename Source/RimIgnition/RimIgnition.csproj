@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="RimIgniterModExtension.cs" />
+    <Compile Include="RimIgnitionSettings.cs" />
     <Compile Include="RimIgnitionUtility.cs" />
     <Compile Include="IncidentWorker_RimIgnition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

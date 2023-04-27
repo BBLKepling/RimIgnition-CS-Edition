@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <BBLK_RimIgnition_Settings>RimIgnition</BBLK_RimIgnition_Settings>
+  
+  <BBLK_RimIgnitionLabelLetter>Send Letter?</BBLK_RimIgnitionLabelLetter>
+  <BBLK_RimIgnitionLetterToolTip>Disables the letter for silent fires.</BBLK_RimIgnitionLetterToolTip>
+
+</LanguageData>

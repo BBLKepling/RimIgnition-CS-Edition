@@ -14,8 +14,10 @@ namespace RimIgnition
             {
                 if (!ignitables[i].def.HasModExtension<RimIgniterModExtension>()) { continue; }
                 CompRefuelable refuelComp = ignitables[i].GetComp<CompRefuelable>();
+                CompFlickable flickComp = ignitables[i].GetComp<CompFlickable>();
                 // the null check is a FU to anyone who patches CompRefuelable off
                 if (refuelComp != null && !refuelComp.HasFuel) { continue; }
+                if (flickComp != null && !flickComp.SwitchIsOn) { continue; }
                 List<IntVec3> tmpCells = new List<IntVec3>();
                 int num = GenRadial.NumCellsInRadius(ignitables[i].def.GetModExtension<RimIgniterModExtension>().emberRange);
                 CellRect startRect = ignitables[i].OccupiedRect();

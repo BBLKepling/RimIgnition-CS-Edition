@@ -32,7 +32,7 @@
     ]</xpath>
     <value>
       <li Class="RimIgnition.RimIgniterModExtension">
-        <emberRange>2</emberRange>
+        <emberRange>0.9</emberRange>
       </li>
     </value>
   </Operation>
@@ -50,7 +50,7 @@
     ]</xpath>
     <value>
       <li Class="RimIgnition.RimIgniterModExtension">
-        <emberRange>3</emberRange>
+        <emberRange>1.9</emberRange>
       </li>
     </value>
   </Operation>

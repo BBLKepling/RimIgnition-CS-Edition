@@ -4,6 +4,7 @@
   <author>bblkepling</author>
   <supportedVersions>
     <li>1.4</li>
+    <li>1.5</li>
   </supportedVersions>
   <packageId>bblkepling.rimignitioncs</packageId>
   <description>Adds a medieval style incident based on Zzztt! .</description>

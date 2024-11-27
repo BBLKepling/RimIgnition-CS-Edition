@@ -28,11 +28,16 @@
       defName="MedTimes_Candle" or 
       defName="MedTimes_Chandeller" or 
       defName="MedTimes_StreetLamp" or 
-      defName="Erin_TorchAndon"
+      defName="Erin_TorchAndon" or 
+      defName="Ultima_CandleLampStandRed" or 
+      defName="Ultima_CandleLampStand" or 
+      defName="GS_HolyTorch" or 
+      defName="GS_BloodTorch" or 
+      defName="GS_ToxTorch"
     ]</xpath>
     <value>
       <li Class="RimIgnition.RimIgniterModExtension">
-        <emberRange>0.9</emberRange>
+        <emberRange>1.9</emberRange>
       </li>
     </value>
   </Operation>
@@ -46,11 +51,14 @@
       defName="undrgdrs_Darkfire" or 
       defName="undrgdrs_FungusDarklightBrazier" or 
       defName="MedTimes_Brazier" or 
-      defName="Stone_Campfire"
+      defName="Stone_Campfire" or 
+      defName="GS_Brazier" or 
+      defName="GS_Holy_Brazier" or 
+      defName="GS_Tox_Brazier"
     ]</xpath>
     <value>
       <li Class="RimIgnition.RimIgniterModExtension">
-        <emberRange>1.9</emberRange>
+        <emberRange>2.9</emberRange>
       </li>
     </value>
   </Operation>

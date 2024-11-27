@@ -12,14 +12,11 @@ namespace RimIgnition
             List<Building> ignitables = map.listerBuildings.allBuildingsColonist;
             for (int i = 0; i < ignitables.Count; i++)
             {
-                if (!ignitables[i].def.HasModExtension<RimIgniterModExtension>()) { continue; }
-                CompRefuelable refuelComp = ignitables[i].GetComp<CompRefuelable>();
-                CompFlickable flickComp = ignitables[i].GetComp<CompFlickable>();
-                // the null check is a FU to anyone who patches CompRefuelable off
-                if (refuelComp != null && !refuelComp.HasFuel) { continue; }
-                if (flickComp != null && !flickComp.SwitchIsOn) { continue; }
+                if (!(ignitables[i].def.GetModExtension<RimIgniterModExtension>() is RimIgniterModExtension modEx) || 
+                    (ignitables[i].GetComp<CompRefuelable>() is CompRefuelable refuelComp && !refuelComp.HasFuel) || 
+                    (ignitables[i].GetComp<CompFlickable>() is CompFlickable flickComp && !flickComp.SwitchIsOn)) { continue; }
                 List<IntVec3> tmpCells = new List<IntVec3>();
-                int num = GenRadial.NumCellsInRadius(ignitables[i].def.GetModExtension<RimIgniterModExtension>().emberRange);
+                int num = GenRadial.NumCellsInRadius(modEx.emberRange);
                 CellRect startRect = ignitables[i].OccupiedRect();
                 for (int q = 0; q < num; q++)
                 {

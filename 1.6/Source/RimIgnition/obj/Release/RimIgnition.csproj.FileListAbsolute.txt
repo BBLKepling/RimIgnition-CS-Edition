@@ -1,0 +1,11 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.4\Assemblies\RimIgnition.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\Source\RimIgnition\obj\Release\RimIgnition.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\Source\RimIgnition\obj\Release\RimIgnition.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\Source\RimIgnition\obj\Release\RimIgnition.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.5\Assemblies\RimIgnition.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.6\Assemblies\RimIgnition.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.6\Assemblies\RimIgnition.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.6\Source\RimIgnition\obj\Release\RimIgnition.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.6\Source\RimIgnition\obj\Release\RimIgnition.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.6\Source\RimIgnition\obj\Release\RimIgnition.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.6\Source\RimIgnition\obj\Release\RimIgnition.pdb

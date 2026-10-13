@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41E7D5C2-EA15-4D1D-937E-F7048AAF41CE}|RimIgnition.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\rimignitionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E7D5C2-EA15-4D1D-937E-F7048AAF41CE}|RimIgnition.csproj|solutionrelative:rimignitionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E7D5C2-EA15-4D1D-937E-F7048AAF41CE}|RimIgnition.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\rimignition-cs-edition\\1.6\\source\\rimignition\\rimignitionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E7D5C2-EA15-4D1D-937E-F7048AAF41CE}|RimIgnition.csproj|solutionrelative:rimignitionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E7D5C2-EA15-4D1D-937E-F7048AAF41CE}|RimIgnition.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\rimignitermodextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E7D5C2-EA15-4D1D-937E-F7048AAF41CE}|RimIgnition.csproj|solutionrelative:rimignitermodextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E7D5C2-EA15-4D1D-937E-F7048AAF41CE}|RimIgnition.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\incidentworker_rimignition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E7D5C2-EA15-4D1D-937E-F7048AAF41CE}|RimIgnition.csproj|solutionrelative:incidentworker_rimignition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RimIgnition||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RimIgnition",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\RimIgnition.csproj",
+              "RelativeDocumentMoniker": "RimIgnition.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\RimIgnition.csproj",
+              "RelativeToolTip": "RimIgnition.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-13T23:49:20.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RimIgniterModExtension.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\RimIgniterModExtension.cs",
+              "RelativeDocumentMoniker": "RimIgniterModExtension.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\RimIgniterModExtension.cs",
+              "RelativeToolTip": "RimIgniterModExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T23:49:20.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RimIgnitionSettings.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\RimIgnitionSettings.cs",
+              "RelativeDocumentMoniker": "RimIgnitionSettings.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\RimIgnitionSettings.cs",
+              "RelativeToolTip": "RimIgnitionSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T23:49:20.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IncidentWorker_RimIgnition.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\IncidentWorker_RimIgnition.cs",
+              "RelativeDocumentMoniker": "IncidentWorker_RimIgnition.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\IncidentWorker_RimIgnition.cs",
+              "RelativeToolTip": "IncidentWorker_RimIgnition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T23:49:20.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RimIgnitionUtility.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\RimIgnitionUtility.cs",
+              "RelativeDocumentMoniker": "RimIgnitionUtility.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimIgnition-CS-Edition\\1.6\\Source\\RimIgnition\\RimIgnitionUtility.cs",
+              "RelativeToolTip": "RimIgnitionUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T23:49:20.678Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

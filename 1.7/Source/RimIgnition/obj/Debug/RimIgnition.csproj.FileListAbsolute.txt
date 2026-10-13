@@ -1,0 +1,13 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Assemblies\Debug\RimIgnition.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Assemblies\Debug\RimIgnition.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Source\RimIgnition\obj\Debug\RimIgnition.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Source\RimIgnition\obj\Debug\RimIgnition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Source\RimIgnition\obj\Debug\RimIgnition.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Source\RimIgnition\obj\Debug\RimIgnition.AssemblyInfo.cs
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Source\RimIgnition\obj\Debug\RimIgnition.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Source\RimIgnition\obj\Debug\RimIgnition.sourcelink.json
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Source\RimIgnition\obj\Debug\RimIgnition.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Source\RimIgnition\obj\Debug\refint\RimIgnition.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Source\RimIgnition\obj\Debug\RimIgnition.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Source\RimIgnition\obj\Debug\ref\RimIgnition.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimIgnition-CS-Edition\1.7\Source\RimIgnition\obj\Debug\RimIgnit.0C49DA9D.Up2Date
